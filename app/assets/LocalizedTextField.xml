@@ -1,0 +1,103 @@
+<xliff version='1.2'>
+	<file original='' source-language='en-US' target-language='fr-FR'>
+		<header></header>
+		<body>
+			<trans-unit id='LABEL_PLAY'>
+				<source>Play</source>
+				<target>Jouer</target>
+			</trans-unit>
+			<trans-unit id='LABEL_MENU'>
+				<source>Menu</source>
+				<target>Menu</target>
+			</trans-unit>
+			<trans-unit id='LABEL_RETRY'>
+				<source>Retry</source>
+				<target>Réessayez</target>
+			</trans-unit>
+			<trans-unit id='LABEL_LEVEL'>
+				<source>Level</source>
+				<target>Niveau</target>
+			</trans-unit>
+			<trans-unit id='HELP_DESCR_GAME'>
+				<source>This game is a puzzle game that puts the player in the shoes of the Sokoban Creator , Hiroyuki Imabayashi</source>
+				<target>Ce jeu est un puzzle game qui met le joueur dans la peau de l'ame du createur du sokoban, Hiroyuki Imabayashi,</target>
+			</trans-unit>
+			<trans-unit id='HELP_HOWTOPLAY1'>
+				<source>Move your character by clicking on the cell where you want to go</source>
+				<target>Déplace le personnage en cliquant où vous voulez aller.</target>
+			</trans-unit>
+			<trans-unit id='HELP_HOWTOPLAY2'>
+				<source>Push the scrols by clicking on it</source>
+				<target>Pousse un parchemin en cliquant dessus.</target>
+			</trans-unit>
+			<trans-unit id='HELP_HOWTOPLAY3'>
+				<source>Win by placing the scrols on their graves</source>
+				<target>Le but est d’amener un Parchemins sur chaque tombe.</target>
+			</trans-unit>
+			<trans-unit id='LABEL_UNDO'>
+				<source>Undo</source>
+				<target>Annulé</target>
+			</trans-unit>
+			<trans-unit id='LABEL_REDO'>
+				<source>Redo</source>
+				<target>Revenir</target>
+			</trans-unit>
+			<trans-unit id='LABEL_HELP'>
+				<source>HELP</source>
+				<target>Aide</target>
+			</trans-unit>
+			<trans-unit id='LABEL_CREDIT'>
+				<source>Credit</source>
+				<target>Crédit</target>
+			</trans-unit>
+			<trans-unit id='LABEL_BACK'>
+				<source>Back</source>
+				<target>Retour</target>
+			</trans-unit>
+			<trans-unit id='HUD_TXT1'>
+				<source></source>
+				<target>Il reste</target>
+			</trans-unit>
+			<trans-unit id='HUD_TXT2'>
+				<source>shadow remaining</source>
+				<target>Ombre</target>
+			</trans-unit>
+			<trans-unit id='HUD_TXT3'>
+				<source>A shadow will appear in</source>
+				<target>Une Ombre apparait dans</target>
+			</trans-unit>
+			<trans-unit id='HUD_TXT4'>
+				<source>move.</source>
+				<target>pas.</target>
+			</trans-unit>
+			<trans-unit id='HUD_TXT5'>
+				<source>You made </source>
+				<target>Vous avez fait </target>
+			</trans-unit>
+			<trans-unit id='HUD_TXT6'>
+				<source>steps</source>
+				<target>déplacement.</target>
+			</trans-unit>
+			<trans-unit id='HUD_TXT7'>
+				<source>Perfect in</source>
+				<target>Le par est de</target>
+			</trans-unit>
+			<trans-unit id='HUD_TXT8'>
+				<source>steps</source>
+				<target>déplacement.</target>
+			</trans-unit>
+			<trans-unit id='VICTORY_1'>
+				<source>Victory you pass the level</source>
+				<target>Victoire vous avez reussi le niveau</target>
+			</trans-unit>
+			<trans-unit id='LABEL_STEPS'>
+				<source>steps</source>
+				<target>pas.</target>
+			</trans-unit>
+			<trans-unit id='LABEL_PERFECT'>
+				<source>Perfect</source>
+				<target>Par</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

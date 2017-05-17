@@ -1,0 +1,262 @@
+{
+	"configBoolean": true,
+	"levelDesign": [
+		{
+			"map": [
+				"vvvvvvvvv",
+				"vvvvvvvvv",
+				"#########",
+				"#@$    .#",
+				"#### ####",
+				"vvv#$#vvv",
+				"vvv#.#vvv",
+				"vvv###vvv",
+				"vvvvvvvvv"
+			],
+			"locked": false,
+			"nmbS": 1,
+			"delayS": 8,
+			"par": 9
+		},
+		{
+			"map": [
+				"vvvvvvvvv",
+				"vvvvvvvvv",
+				"#########",
+				"#.      #",
+				"#  @$$ .#",
+				"#       #",
+				"#########",
+				"vvvvvvvvv",
+				"vvvvvvvvv"
+			],
+			"locked": true,
+			"nmbS": 1,
+			"delayS": 9,
+			"par": 10
+		},
+		{
+			"map": [
+				"vvvvvvvvv",
+				"vvvvv####",
+				"vvvvv#  #",
+				"######  #",
+				"# @.   $#",
+				"#  $    #",
+				"###### .#",
+				"vvvvv####",
+				"vvvvvvvvv"
+			],
+			"locked": true,
+			"nmbS": 1,
+			"delayS": 33,
+			"par": 34
+		},
+		{
+			"map": [
+				"v#####vvv",
+				"v#   ###v",
+				"v# @$  #v",
+				"v#   #.#v",
+				"v## ## #v",
+				"v#     #v",
+				"v#     #v",
+				"v# $.  #v",
+				"v#######v"
+			],
+			"locked": true,
+			"nmbS": 1,
+			"delayS": 12,
+			"par": 30
+		},
+		{
+			"map": [
+				"vvvvvvvvv",
+				"v####vvvv",
+				"v# .#vvvv",
+				"v#  ####v",
+				"v#*@   #v",
+				"v#  $  #v",
+				"v#  ####v",
+				"v####vvvv",
+				"vvvvvvvvv"
+			],
+			"locked": true,
+			"nmbS": 1,
+			"delayS": 35,
+			"par": 33
+		},
+		{
+			"map": [
+				"vvv#.#vvv",
+				"vvv# #vvv",
+				"vvv# #vvv",
+				"#### ####",
+				"@      .#",
+				"####$## #",
+				"vvv# ## #",
+				"vvv#    #",
+				"vvv######"
+			],
+			"locked": true,
+			"nmbS": 1,
+			"delayS": 11,
+			"par": 21
+		},
+		{
+			"map": [
+				"vvvvvvvvv",
+				"vv######v",
+				"vv#    #v",
+				"###$   #v",
+				"#..  .@#v",
+				"###    #v",
+				"vv######v",
+				"vvvvvvvvv",
+				"vvvvvvvvv"
+			],
+			"locked": true,
+			"nmbS": 1,
+			"delayS": 8,
+			"par": 19
+		},
+		{
+			"map": [
+				"v#######v",
+				"v# ... #v",
+				"v#     #v",
+				"v# $ $ #v",
+				"v#     #v",
+				"v##   ##v",
+				"vv#   #vv",
+				"vv#   #vv",
+				"vv# @ #vv"
+			],
+			"locked": true,
+			"nmbS": 1,
+			"delayS": 6,
+			"par": 15
+		},
+		{
+			"map": [
+				"vvvvvvvvv",
+				"v###vv##v",
+				"v#. ##.#v",
+				"v#     #v",
+				"v# $ # #v",
+				"v#   $.#v",
+				"v#   #@#v",
+				"v#######v",
+				"vvvvvvvvv"
+			],
+			"locked": true,
+			"nmbS": 1,
+			"delayS": 10,
+			"par": 24
+		},
+		{
+			"map": [
+				"vvvvvvvvv",
+				"######vvv",
+				"#  ..#vvv",
+				"# $  ###v",
+				"#@    .#v",
+				"####$  #v",
+				"vvv#   #v",
+				"vvv#####v",
+				"vvvvvvvvv"
+			],
+			"locked": true,
+			"nmbS": 1,
+			"delayS": 6,
+			"par": 26
+		},
+		{
+			"map": [
+				"vvvvvvvvv",
+				"vv####vvv",
+				"vv#  #vvv",
+				"###  #vvv",
+				"+ $  #vvv",
+				"     #vvv",
+				"#### #vvv",
+				"vvv# #vvv",
+				"vvv#.#vvv"
+			],
+			"locked": true,
+			"nmbS": 1,
+			"delayS": 11,
+			"par": 35
+		},
+		{
+			"map": [
+				"#. . . .#",
+				"#       #",
+				"#       #",
+				"#  # #  #",
+				"# $#$#$ #",
+				"#  # #  #",
+				"#       #",
+				"v## @ ##v",
+				"vvv###vvv"
+			],
+			"locked": true,
+			"nmbS": 1,
+			"delayS": 11,
+			"par": 55
+		},
+		{
+			"map": [
+				"         ",
+				"         ",
+				"         ",
+				"         ",
+				" $###### ",
+				"  . . . .",
+				"  #######",
+				"  #vvvvvv",
+				" @#vvvvvv"
+			],
+			"locked": true,
+			"nmbS": 20,
+			"delayS": 3,
+			"par": 35
+		},
+		{
+			"map": [
+				"vvvvvvvvv",
+				"vv###vvvv",
+				"vv#.#vvvv",
+				"vv# #vvvv",
+				"v## ####v",
+				"v#.$@  #v",
+				"v## ## #v",
+				"vv#    #v",
+				"vv######v"
+			],
+			"locked": true,
+			"nmbS": 1,
+			"delayS": 4,
+			"par": 19
+		},
+		{
+			"map": [
+				"#       .",
+				"#.#$ @ # ",
+				"#    # $.",
+				"#    ### ",
+				"#.      .",
+				"#####   #",
+				"  .##.   ",
+				" $###$#$ ",
+				"#     .  "
+			],
+			"locked": true,
+			"nmbS": 1,
+			"delayS": 18,
+			"par": 19
+		}
+	],
+	"configString": "texte d'exemple",
+	"configNumber": 3.5
+}

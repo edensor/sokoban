@@ -1,0 +1,35 @@
+{
+  "name": "sokoban",
+  "version": "1.0.0",
+  "description": "integration angulars + gulp + karma + jasmine + sass dans un projet full javascript.",
+  "main": "index.js",
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install",
+    "start": "http-server ./app -a localhost -p 8000 -c-1",
+    "pretest": "npm install",
+    "test": "karma start karma.conf.js",
+    "test-single-run": "karma start karma.conf.js --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edensor/sokoban.git"
+  },
+  "keywords": [
+    "sokoban"
+  ],
+  "author": "martella marco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edensor/sokoban/issues"
+  },
+  "homepage": "https://github.com/edensor/sokoban#readme"
+}
