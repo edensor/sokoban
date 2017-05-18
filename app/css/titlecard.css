@@ -1,266 +1,316 @@
-@font-face { 
-  font-family: 'ghost'; 
-  src: url('../assets/Astral.ttf'); 
+@charset 'UTF-8';
+
+@font-face {
+  font-family: 'ghost';
+
+    src: url('../assets/Astral.ttf');
 }
 
-.house{
-	position: absolute;
-	top: 0%;
-	left: 0%;
-	width: 15%;
-	height: 10%;
-	background: url('../assets/faceWallW.png') right center;
-	background-size: 100% 100%;
+.house {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 10%;
+  background: url('../assets/faceWallW.png') right center;
+  background-size: 100% 100%;
 }
 
-.houseR{
-	position: absolute;
-	top: 0%;
-	left: 0%;
-	width: 15%;
-	height: 10%;
-	background: url('../assets/faceWallRW.png') right center;
-	background-size: 100% 100%;
-	transform: scaleY(-1);
+.houseR {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 10%;
+  -webkit-transform: scaleY(-1);
+          transform: scaleY(-1);
+  background: url('../assets/faceWallRW.png') right center;
+  background-size: 100% 100%;
 }
 
-.leftH{
-	transform: scaleX(-1);
+.leftH {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
 }
 
-.houseR.leftH{
-	transform: scale(-1,-1)
+.houseR.leftH {
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
 }
 
-.barque{
-	position: absolute;
-	top: 0%;
-	left: 0%;
-	width: 12%;
-	height: 5%;
-	background: url('../assets/barqueW.png') right center;
-	background-size: 100% 100%;
-	animation: floter 1.2s steps(25) infinite;
+.barque {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12%;
+  height: 5%;
+  -webkit-animation: floter 1.2s steps(25) infinite;
+          animation: floter 1.2s steps(25) infinite;
+  background: url('../assets/barqueW.png') right center;
+  background-size: 100% 100%;
 }
 
-.moon{
-	position: absolute;
-	top: 0%;
-	left: 0%;
-	width: 15%;
-	height: 15%;
-	background-color: white;
-	border-color: black;
-	border: 1px solid;
-	border-radius: 50%;
-	overflow: hidden;
+.moon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 15%;
+  height: 15%;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 50%;
+  background-color: white;
 }
 
-.ShadowCenter{
-	position: absolute;
-	top: 62%;
-	left: 33%;
-	width: 25%;
-	height: 15%;
-	background-color: white;
-	border-radius: 50%;
+.ShadowCenter {
+  position: absolute;
+  top: 62%;
+  left: 33%;
+  width: 25%;
+  height: 15%;
+  border-radius: 50%;
+  background-color: white;
 }
 
-.sol{
-	position: absolute;
-	top: 0%;
-	left: 0%;
-	width: 100%;
-	height: 10%;
-	background: linear-gradient(to right,rgba(27,3,0,1) 0%, rgba(47,23,10,1) 55%, rgba(117,93,80,1) 70%, rgba(47,23,10,1) 85%,rgba(27,3,0,1) 100%); /* Standard syntax */
+.sol {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  background: -webkit-gradient(linear, left top, right top, from(#1b0300), color-stop(55%, #2f170a), color-stop(70%, #755d50), color-stop(85%, #2f170a), to(#1b0300));
+  background: linear-gradient(to right, #1b0300 0%, #2f170a 55%, #755d50 70%, #2f170a 85%, #1b0300 100%);
+    /* Standard syntax */
 }
 
-.river{
-	position: absolute;
-	top: 0%;
-	left: 0%;
-	width: 100%;
-	height: 40%;
-	background-color: rgba(69,71,68,.50);
+.river {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background-color: rgba(69, 71, 68, .5);
 }
 
-.haloGround{
-	position: absolute;
-	top: 0%;
-	left: 0%;
-	width: 100%;
-	height: 60%;
-	background: linear-gradient(rgba(140,120,255,0) 0%, rgba(140,120,255,1) 50%, rgba(140,120,255,0) 100%); /* Standard syntax */
-	background-repeat: no-repeat;
+.haloGround {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(140, 120, 255, 0)), color-stop(50%, #8c78ff), to(rgba(140, 120, 255, 0)));
+  background: linear-gradient(rgba(140, 120, 255, 0) 0%, #8c78ff 50%, rgba(140, 120, 255, 0) 100%);
+    /* Standard syntax */
+  background-repeat: no-repeat;
 }
 
-.titre{
-	font-family: 'ghost', Georgia, serif;
-	color: white;
-	text-align: center;
-	font-size: 300%;
-	position: absolute;
-	top: 0%;
-	left: 0%;
-	width: 50%;
-	height: 25%;
+.titre {
+  font-family: 'ghost', Georgia, serif;
+  font-size: 300%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 25%;
+  text-align: center;
+  color: white;
 }
 
-.Maintitre{
-	font-family: 'ghost', Georgia, serif;
-	color: black;
-	text-align: center;
-	font-size: 300%;
-	position: absolute;
-	top: 0%;
-	left: 0%;
-	width: 50%;
-	height: 25%;
+.Maintitre {
+  font-family: 'ghost', Georgia, serif;
+  font-size: 300%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 25%;
+  text-align: center;
+  color: black;
 }
 
-.TitleSize{
-	position: absolute;
-	top: 0%;
-	left: 0%;
-	width: 6.4%;
-	height: 10%;
+.TitleSize {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6.4%;
+  height: 10%;
 }
 
-.Screen{
-	position: absolute;
-	top: 0%;
-	left: 0%;
+.Screen {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.PlayerR{
-	background: url('../assets/playerRW.png');
-	background-size: cover;
-  	background-repeat: no-repeat;
-  	transform: scaleY(-1);
+.PlayerR {
+  -webkit-transform: scaleY(-1);
+          transform: scaleY(-1);
+  background: url('../assets/playerRW.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.ShadowR{
-	background: url('../assets/shadowRW.png');
-	background-size: cover;
-  	background-repeat: no-repeat;
-  	transform: scaleY(-1);
+.ShadowR {
+  -webkit-transform: scaleY(-1);
+          transform: scaleY(-1);
+  background: url('../assets/shadowRW.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.button{
-	font-family: 'ghost', Georgia, serif;
-	color: white;
-	font-size: 150%;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 0%;
-	height: 0%;
-	background-color: black;
-	border-radius: 50%;
-	border-color: black;
-	border: 0px solid;
-	padding: 0%;
-	overflow: hidden;
+.button {
+  font-family: 'ghost', Georgia, serif;
+  font-size: 150%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  padding: 0;
+  color: white;
+  border: 0 solid;
+  border-color: black;
+  border-radius: 50%;
+  background-color: black;
 }
 
 .button:hover {
-    position: absolute;
-    border-radius: 20% 50% 20% 50%;
-
+  position: absolute;
+  border-radius: 20% 50% 20% 50%;
 }
 
-.button.lvllock{
-	background-color: gray;
-	color: black;
+.button.lvllock {
+  color: black;
+  background-color: gray;
 }
 
-.button.nextLevel{
-	background-color: blue;
+.button.nextLevel {
+  background-color: blue;
 }
 
-.hudButton{
-	font-family: 'ghost', Georgia, serif;
-	color: white;
-	font-size: 150%;
-	background-color: rgba(34,35,59,1);
-	width: 100%;
-	height: 25%;
-	border-radius: 50%;
-	border-color: black;
-	border: 0px solid;
-	overflow: hidden;
+.hudButton {
+  font-family: 'ghost', Georgia, serif;
+  font-size: 150%;
+  overflow: hidden;
+  width: 100%;
+  height: 25%;
+  color: white;
+  border: 0 solid;
+  border-color: black;
+  border-radius: 50%;
+  background-color: #22233b;
 }
 
 .hudButton:hover {
-    border-radius: 20% 50% 20% 50%;
-
+  border-radius: 20% 50% 20% 50%;
 }
 
-.login{
-	position: absolute;
-	top: 50%;
-	left: 50%;
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
-.loginButton{
-	font-family: 'ghost', Georgia, serif;
-	color: white;
-	font-size: 150%;
-	background-color: black;
-	border-radius: 50%;
-	border-color: black;
-	border: 0px solid;
-	overflow: hidden;
+.loginButton {
+  font-family: 'ghost', Georgia, serif;
+  font-size: 150%;
+  overflow: hidden;
+  color: white;
+  border: 0 solid;
+  border-color: black;
+  border-radius: 50%;
+  background-color: black;
 }
 
 .loginButton:hover {
-    border-radius: 20% 50% 20% 50%;
+  border-radius: 20% 50% 20% 50%;
 }
 
-.Message{
-	font-family: 'ghost', Georgia, serif;
-	color: black;
-	font-size: 120%;
-	text-align: center;
-	position: absolute;
-	top: 20%;
-	left: 10%;
-	width: 80%;
-}
-.Message table{
-	width: 100%;
+.Message {
+  font-family: 'ghost', Georgia, serif;
+  font-size: 120%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 80%;
+  text-align: center;
+  color: black;
 }
 
-.Trans{
-	-webkit-transition:  width 2s, height 2s, top 2s, left 2s border-radius 1s;
-    transition: width 2s, height 2s, top 2s, left 2s, border-radius 0.5s;
+.Message table {
+  width: 100%;
+}
+
+.Trans {
+  -webkit-transition: width 2s, height 2s, top 2s, left 2s border-radius 1s;
+  -webkit-transition: width 2s, height 2s, top 2s, left 2s, border-radius .5s;
+  transition: width 2s, height 2s, top 2s, left 2s, border-radius .5s;
+}
+
+@-webkit-keyframes floter {
+    /* nous ne modifions que la propriété background position */
+  0% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+    /* point de départ 0% du mouvement */
+  25% {
+    -webkit-transform: translate(0%, 7%);
+            transform: translate(0%, 7%);
+  }
+    /* point de départ 0% du mouvement */
+  75% {
+    -webkit-transform: translate(0%, -7%);
+            transform: translate(0%, -7%);
+  }
+    /* point de départ 0% du mouvement */
+  100% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+    /* arrivée 100% du mouvement */
 }
 
 @keyframes floter {
     /* nous ne modifions que la propriété background position */
-    0% { transform: translate(0%,0%); } /* point de départ 0% du mouvement */
-    25% { transform: translate(0%,7%); } /* point de départ 0% du mouvement */
-    75% { transform: translate(0%,-7%); } /* point de départ 0% du mouvement */
-    100% { transform: translate(0%,0%); } /* arrivée 100% du mouvement */
+  0% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+    /* point de départ 0% du mouvement */
+  25% {
+    -webkit-transform: translate(0%, 7%);
+            transform: translate(0%, 7%);
+  }
+    /* point de départ 0% du mouvement */
+  75% {
+    -webkit-transform: translate(0%, -7%);
+            transform: translate(0%, -7%);
+  }
+    /* point de départ 0% du mouvement */
+  100% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+    /* arrivée 100% du mouvement */
 }
 
 @media screen and (max-width: 700px) {
-	.Message{
-		font-size: 100%;
-	}
-
+  .Message {
+    font-size: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {
-	.Message{
-	font-size: 70%;
-	}
-
+  .Message {
+    font-size: 70%;
+  }
 }
 
 @media screen and (min-width: 900px) {
-	.Message{
-	font-size: 140%;
-	}
-
+  .Message {
+    font-size: 140%;
+  }
 }

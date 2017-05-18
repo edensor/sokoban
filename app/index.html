@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
 	<meta name="Jeu Sokoban" content="Venez decouvrir le meilleur des Sokobans">
@@ -16,20 +19,6 @@
 	<div id="gameStage"><div id="loadBar"></div></div>
 	</body>
 
-	<script>
-	// you can register settings like this before require.js is loaded
-	var require = {
-  	 baseUrl: 'src/',
-  	 paths:{
-		'jquery':'../libs/jquery-1.11.3.min',
-		'phfinding':'../libs/pathfinding',
-		'sokoban':'./com/isartdigital/sokoban',
-		'utils':'./com/isartdigital/utils',
-		"howler" : "../libs/howler.min"
-	},
-	urlArgs:'bust='+(new Date()).getTime(),
-	waitSeconds: 200
-	};
-	</script>
+	<script type="text/javascript" src="src/com/isartdigital/sokoban/configReq.js"></script>
 	<script data-main="sokoban/Sokoban" type="text/javascript" src="libs/require.js"></script>
 </html>
